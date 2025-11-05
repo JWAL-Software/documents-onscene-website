@@ -22,7 +22,7 @@ export default function Home() {
             </div>
             <div className="hidden md:flex items-center space-x-8">
               <a href="#about" className="text-gray-700 hover:text-blue-600 transition">About</a>
-              <a href="#specialists" className="text-gray-700 hover:text-blue-600 transition">Our Team</a>
+              <a href="#specialists" className="text-gray-700 hover:text-blue-600 transition">Leadership</a>
               <a href="#features" className="text-gray-700 hover:text-blue-600 transition">Features</a>
               <a href="mailto:support@documentsonscene.com" className="bg-blue-600 text-white px-4 py-2 rounded-lg hover:bg-blue-700 transition">Get Started</a>
             </div>
@@ -43,7 +43,7 @@ export default function Home() {
           {mobileMenuOpen && (
             <div className="md:hidden pb-4 space-y-2">
               <a href="#about" className="block px-4 py-2 text-gray-700 hover:text-blue-600 hover:bg-gray-50 rounded" onClick={() => setMobileMenuOpen(false)}>About</a>
-              <a href="#specialists" className="block px-4 py-2 text-gray-700 hover:text-blue-600 hover:bg-gray-50 rounded" onClick={() => setMobileMenuOpen(false)}>Our Team</a>
+              <a href="#specialists" className="block px-4 py-2 text-gray-700 hover:text-blue-600 hover:bg-gray-50 rounded" onClick={() => setMobileMenuOpen(false)}>Leadership</a>
               <a href="#features" className="block px-4 py-2 text-gray-700 hover:text-blue-600 hover:bg-gray-50 rounded" onClick={() => setMobileMenuOpen(false)}>Features</a>
               <a href="mailto:support@documentsonscene.com" className="block px-4 py-2 bg-blue-600 text-white rounded hover:bg-blue-700" onClick={() => setMobileMenuOpen(false)}>Get Started</a>
             </div>
@@ -74,7 +74,7 @@ export default function Home() {
             </div>
             <div className="relative">
               <img 
-                src="/Gemini_Generated_Image_wayxb7wayxb7wayx.png" 
+                src="/Hero1.png" 
                 alt="Heavy-duty roadside assistance vehicle towing semi truck" 
                 className="rounded-2xl shadow-2xl"
               />
@@ -133,53 +133,56 @@ export default function Home() {
       {/* About Section */}
       <section id="about" className="py-20 px-4 sm:px-6 lg:px-8 bg-gray-50">
         <div className="max-w-7xl mx-auto">
-          <div className="grid lg:grid-cols-2 gap-12 items-center">
-            <div>
-              <img 
-                src="https://images.unsplash.com/photo-1589829545856-d10d557cf95f?w=800&h=600&fit=crop" 
-                alt="Professional risk management" 
-                className="rounded-2xl shadow-xl"
-              />
-            </div>
-            <div>
-              <h3 className="text-4xl font-bold text-gray-900 mb-6">Streamlined On-Scene Documentation</h3>
-              <p className="text-lg text-gray-600 mb-4">
-                Documents on Scene provides the critical documentation you need during on-scene situations, 
-                delivered in a format that's easy to understand and act upon.
-              </p>
-              <p className="text-lg text-gray-600 mb-4">
-                Whether you're dealing with insurance claims, risk assessments, or legal documentation, 
-                our platform ensures you have access to the right documents at the right time.
-              </p>
-              <p className="text-lg text-gray-600">
-                Our team of experts has designed this service to eliminate confusion and streamline 
-                the documentation process, so you can focus on what matters most.
-              </p>
-            </div>
+          <div className="text-center mb-12">
+            <h3 className="text-4xl font-bold text-gray-900 mb-6">About Us</h3>
+            <h4 className="text-2xl font-semibold text-gray-800 mb-6">
+              Empowering Towing and Recovery Teams to Do What They Do Best — While We Take Care of What Comes Next.
+            </h4>
+          </div>
+          <div className="max-w-4xl mx-auto">
+            <p className="text-lg text-gray-600 mb-4 leading-relaxed">
+              OnScene was built by people who understand the grind of towing and recovery. Our mission is simple: give operators the tools and support they need to focus on the job, not the paperwork. From scene to settlement, we make sure every recovery is documented, processed, and paid — fast, fair, and transparent.
+            </p>
           </div>
         </div>
       </section>
 
-      {/* Specialists Section */}
+      {/* Leadership Team Section */}
       <section id="specialists" className="py-20 px-4 sm:px-6 lg:px-8 bg-white">
         <div className="max-w-7xl mx-auto">
           <div className="text-center mb-16">
-            <h3 className="text-4xl font-bold text-gray-900 mb-4">Meet Our Expert Team</h3>
-            <p className="text-xl text-gray-600 max-w-2xl mx-auto">
-              Backed by industry-leading specialists in insurance and legal risk management
-            </p>
+            <h3 className="text-4xl font-bold text-gray-900 mb-4">Leadership Team</h3>
           </div>
-          <div className="grid md:grid-cols-2 gap-12">
+          <div className="grid md:grid-cols-2 gap-8">
             {/* Jamie Rhines */}
             <div className="bg-gradient-to-br from-blue-50 to-white p-8 rounded-2xl shadow-lg">
               <div>
                 <h4 className="text-2xl font-bold text-gray-900 mb-2">Jamie Rhines</h4>
-                <p className="text-blue-600 font-semibold mb-4">Insurance Underwriting Specialist</p>
+                <p className="text-blue-600 font-semibold mb-4">Founder, President & Chief Executive Officer</p>
                 <p className="text-gray-600 leading-relaxed">
-                  With extensive experience in insurance underwriting, Jamie brings deep expertise 
-                  in risk assessment and policy documentation. Her knowledge ensures that all 
-                  insurance-related documents are accurate, comprehensive, and tailored to your 
-                  specific on-scene needs.
+                  Jamie Rhines brings more than two decades of towing and insurance experience to OnScene. After over ten years working for major insurance carriers, he switched sides to advocate for the towing and recovery professionals who keep highways safe. His mission is simple: make sure hardworking operators get paid fairly and on time.
+                </p>
+              </div>
+            </div>
+
+            {/* Megan Rhines */}
+            <div className="bg-gradient-to-br from-gray-50 to-white p-8 rounded-2xl shadow-lg">
+              <div>
+                <h4 className="text-2xl font-bold text-gray-900 mb-2">Megan Rhines</h4>
+                <p className="text-blue-600 font-semibold mb-4">Treasurer & Chief Operating Officer</p>
+                <p className="text-gray-600 leading-relaxed">
+                  Megan Rhines manages OnScene's operations and finance with a focus on efficiency, compliance, and partner trust. Her leadership ensures the company grows on solid footing while maintaining transparency and reliability for its users and investors.
+                </p>
+              </div>
+            </div>
+
+            {/* Jacob Knight */}
+            <div className="bg-gradient-to-br from-blue-50 to-white p-8 rounded-2xl shadow-lg">
+              <div>
+                <h4 className="text-2xl font-bold text-gray-900 mb-2">Jacob Knight</h4>
+                <p className="text-blue-600 font-semibold mb-4">Chief Technology Officer</p>
+                <p className="text-gray-600 leading-relaxed">
+                  Jacob Knight is the lead architect and primary developer of OnScene's AI-driven platform. With a background in logistics and systems design, he builds the tools that connect field operators, dispatchers, and insurers in real time — turning complex workflows into simple, reliable solutions.
                 </p>
               </div>
             </div>
@@ -188,12 +191,9 @@ export default function Home() {
             <div className="bg-gradient-to-br from-gray-50 to-white p-8 rounded-2xl shadow-lg">
               <div>
                 <h4 className="text-2xl font-bold text-gray-900 mb-2">Devin Argyle</h4>
-                <p className="text-blue-600 font-semibold mb-4">Attorney - On-Scene Risk Management</p>
+                <p className="text-blue-600 font-semibold mb-4">Secretary & Chief Legal Officer</p>
                 <p className="text-gray-600 leading-relaxed">
-                  As an attorney specializing in on-scene risk management, Devin provides critical 
-                  legal expertise for documentation needs. His understanding of risk management 
-                  protocols ensures that all legal documents meet the highest standards and protect 
-                  your interests in on-scene situations.
+                  Devin Argyle oversees OnScene's legal strategy, compliance, and risk management. A corporate attorney with deep experience in startup law and regulatory oversight, he ensures OnScene's contracts, funding, and structure remain fully compliant with Delaware law and S-Corp requirements, supporting secure and sustainable growth.
                 </p>
               </div>
             </div>
@@ -233,7 +233,7 @@ export default function Home() {
               <h5 className="text-white text-lg font-semibold mb-4">Quick Links</h5>
               <ul className="space-y-2">
                 <li><a href="#about" className="hover:text-white transition">About</a></li>
-                <li><a href="#specialists" className="hover:text-white transition">Our Team</a></li>
+                <li><a href="#specialists" className="hover:text-white transition">Leadership</a></li>
                 <li><a href="#features" className="hover:text-white transition">Features</a></li>
               </ul>
             </div>
