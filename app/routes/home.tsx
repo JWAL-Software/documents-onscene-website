@@ -57,7 +57,7 @@ export default function Home() {
           <div className="grid lg:grid-cols-2 gap-12 items-center">
             <div>
               <h2 className="text-5xl lg:text-6xl font-bold text-gray-900 mb-6 leading-tight">
-                The Documents You Need, <span className="text-blue-600">Where You Need Them, When You Need Them</span>
+                The Documents You Need, <span className="text-blue-600">OnScene</span>
               </h2>
               <p className="text-xl text-gray-600 mb-8 leading-relaxed">
                 Get critical insurance and legal documents when you need them most. 
