@@ -60,7 +60,7 @@ export default function Home() {
                 The Documents You Need, <span className="text-blue-600">OnScene</span>
               </h2>
               <p className="text-xl text-gray-600 mb-8 leading-relaxed">
-                Get critical insurance and legal documents when you need them most. 
+                Send and recieve critical insurance and legal documents when you need them most. 
                 Expert guidance from industry specialists delivered in an easily digestible format.
               </p>
               <div className="flex flex-col sm:flex-row gap-4">
