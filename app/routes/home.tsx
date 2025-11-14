@@ -89,7 +89,7 @@ export default function Home() {
           <div className="text-center mb-16">
             <h3 className="text-4xl font-bold text-gray-900 mb-4">Why Documents on Scene?</h3>
             <p className="text-xl text-gray-600 max-w-2xl mx-auto">
-              Streamlined documentation for on-scene situations, backed by expert knowledge
+              Streamlined documentation for OnScene situations, backed by expert knowledge
             </p>
           </div>
           <div className="grid md:grid-cols-3 gap-8">
